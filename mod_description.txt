@@ -1,0 +1,38 @@
+﻿[orange]Apple Maps Nav Module: Dark Mode (default BG)[normal]
+
+This is a [green]module[normal] for the Apple Maps Navigation mod.
+The [orange]Base Mod is required![normal]
+
+What this Module does:
+- Changes GPS and map colors to Apple Maps Dark Mode style
+- The GPS background has the default Apple Maps background color
+
+[orange]Load Order:[normal]
+1. [green]Apple Maps Nav Module: Dark Mode (default BG)[normal] (this mod)
+2. Compatible Background Map (if used)
+3. Apple Maps Navigation (Base)
+4. Any Map Mod (if used)
+
+[orange]Credits:[normal]
+Lism
+
+==========================================================================
+
+[orange]Apple Maps Nav Module: Dark Mode (default BG)[normal]
+
+Dies ist ein [green]Modul[normal] für die Apple Maps Navigation Mod.
+Die [orange]Base Mod wird benötigt![normal]
+
+Was dieses Modul macht:
+- Ändert Navi- und Kartenfarben im Apple Maps Dark Mode Stil
+- Der Navi-Hintergrund verwendet einen grünen Apple Maps Farbton
+
+[orange]Ladereihenfolge:[normal]
+1. [green]Apple Maps Nav Module: Dark Mode (default BG)[normal] (diese Mod)
+2. Kompatible Background Map (falls verwendet)
+3. Apple Maps Navigation (Base)
+4. Gewünschte Map Mod (falls verwendet)
+
+[orange]Credits:[normal]
+Lism
+

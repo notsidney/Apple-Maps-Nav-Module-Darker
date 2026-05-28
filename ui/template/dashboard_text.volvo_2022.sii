@@ -1,0 +1,133 @@
+SiiNunit
+{
+# For modders: Please do not modify this file if you want to add a new entry. Create in
+# this directory a new file "<base_name>.<idofyourmod>.sii" where <base_name> is name of
+# base file without the extension (e.g. "dashboard" for "/ui/template/dashboard.sii") and <idofyourmod> is
+# some string which is unlikely to conflict with other mod.
+#
+# Warning: Even if the units are specified in more than one source file, they share the
+# same namespace so suffixes or prefixes should be used to avoid conflicts.
+
+
+ui::text_template : txt.volvo_2022.speed_lmt {
+	name: "zDB  VOLVO FH 2022 Speed Limit"
+	text: "<img src=/material/ui/dashboard/volvo_fh_2022/dash_ico.mat xscale=stretch yscale=stretch left=0 right=0.061 bottom=0.878 top=1><ret><color value=FF000000><offset vshift=5><align vstyle=center hstyle=center><font face=/font/volvo_2022b.font xscale=1.7 yscale=1.7>%0</font></align>"
+}
+
+ui::text_template : txt.volvo_2022.clock {
+	name: "zDB  Volvo FH 2022 Clock"
+	text: "<align vstyle=center hstyle=center><font face=/font/volvo_2022b.font xscale=0.77 yscale=0.77>%0</font></align>"
+}
+
+ui::text_template : txt.volvo_2022.clockgps {
+	name: "zDB  Volvo FH 2022 ClockGPS"
+	text: "<align vstyle=center hstyle=center><font face=/font/volvo_2022.font xscale=0.94 yscale=0.94>%0</font></align>"
+}
+
+ui::text_template : txt.volvo_2022.camera {
+	name: "zDB  Volvo FH 2022 Camera"
+	text: "<align vstyle=center hstyle=center><font face=/font/Volvo_2022_2.font xscale=0.8 yscale=0.8><color value=FFD0F5FF>%0</font></align>"
+}
+
+ui::text_template : txt.volvo_2022.fuelcons {
+	name: "zDB  Volvo FH 2022 Average Consumption"
+	text: "<align vstyle=center hstyle=center><font face=/font/volvo_2022.font xscale=0.9 yscale=0.9>%0</font></align><ret><offset vshift=8><align vstyle=center hstyle=right><font face=/font/Volvo_2022_2.font xscale=0.4 yscale=0.4><color value=FFD0F5FF>%1</font></align>"
+}
+
+ui::text_template : txt.volvo_2022.instcons {
+	name: "zDB  Volvo 2022 Instant Consumption"
+	text: "<align vstyle=center hstyle=center><font face=/font/volvo_2022.font xscale=0.9 yscale=0.9>%0</font></align><ret><offset vshift=8><align vstyle=center hstyle=right><font face=/font/Volvo_2022_2.font xscale=0.4 yscale=0.4><color value=FFD0F5FF>%1</font></align>"
+}
+
+ui::text_template : txt.volvo_2022.fuel.distance {
+	name: "zDB  Volvo 2022 Fuel Distance"
+	text: "<align vstyle=center hstyle=center><font face=/font/volvo_2022.font xscale=0.9 yscale=0.9>%0</font></align><ret><offset vshift=8><align vstyle=center hstyle=right><font face=/font/Volvo_2022_2.font xscale=0.4 yscale=0.4><color value=FFD0F5FF>%1</font></align>"
+}
+
+ui::text_template : txt.volvo_2022.temp {
+	name: "zDB  Volvo 2022 Temperature"
+	text: "<align hstyle=right><font face=/font/volvo_2022.font xscale=1 yscale=1>%0</font><offset vshift=3 offset hshift=2><font face=/font/volvo_2022.font xscale=1 yscale=1>°%1</font></align>"
+}
+
+ui::text_template : txt.volvo_2022.gearmode {
+	name: "zDB  Volvo 2022 Gear Mode"
+	text: "<align vstyle=center hstyle=center><font face=/font/volvo_2022.font xscale=1 yscale=1>%0</font></align>"
+}
+
+ui::text_template : txt.volvo_2022.gearam {
+	name: "zDB  Volvo 2022 Gear A/M"
+	text: "<align vstyle=center hstyle=center><font face=/font/volvo_2022.font xscale=1 yscale=1>%0</font></align>"
+}
+
+ui::text_template : txt.volvo_2022.gear {
+	name: "zDB  Volvo 2022 Gear"
+	text: "<align vstyle=center hstyle=left><font face=/font/volvo_2022.font xscale=1 yscale=1>%0</font></align>"
+}
+
+ui::text_template : txt.volvo_2022.odometer {
+	name: "zDB  Volvo 2022 Odometer"
+	text: "<align vstyle=center hstyle=center><font face=/font/volvo_2022.font xscale=0.85 yscale=0.85>%0</font></align><ret><offset vshift=8><align vstyle=center hstyle=right><font face=/font/Volvo_2022_2.font xscale=0.5 yscale=0.5>%1</font></align>"
+}
+
+ui::text_template : txt.volvo_2022.trip_dist {
+	name: "zDB  Volvo 2022 Trip Distance"
+	text: "<align vstyle=center hstyle=right><font face=/font/volvo_2022.font xscale=0.85 yscale=0.85>%0</font></align>"
+}
+
+ui::text_template : txt.volvo_2022.speed {
+	name: "zDB  Volvo 2022 Speed"
+	text: "<align vstyle=center hstyle=center><font face=/font/volvo_2022.font xscale=2 yscale=2>%0</font></align><ret><offset vshift=8><align vstyle=bottom hstyle=right><font face=/font/Volvo_2022_2.font xscale=0.4 yscale=0.4><color value=FFD0F5FF>km/h</font></align>"
+}
+
+ui::text_template : txt.volvo_2022.triptime {
+	name: "zDB  Volvo 2022 Time Menu"
+	text: "<align vstyle=center hstyle=center><font face=/font/volvo_2022.font xscale=0.9 yscale=0.9>%0</font></align>"
+}
+
+ui::text_template : txt.volvo_2022.ccspeed {
+	name: "zDB  Volvo FH 2022 CC Speed"
+	text: "<align vstyle=center hstyle=center><font face=/font/volvo_2022.font xscale=1 yscale=1>%0</font></align>"
+}
+
+ui::text_template : txt.volvo_2022.speed_lmtm {
+	name: "zDB  VOLVO FH 2022 Speed Limit"
+	text: "<img src=/material/ui/dashboard/volvo_fh_2022/dash_ico.mat xscale=stretch yscale=stretch left=0 right=0.061 bottom=0.878 top=1><ret><color value=FF000000><offset vshift=5><align vstyle=center hstyle=center><font face=/font/volvo_2022b.font xscale=0.88 yscale=0.88>%0</font></align>"
+}
+
+ui::text_template : txt.volvo_2022.lowf {
+	name: "zDB  Volvo FH 2022 Low Fuel"
+	text: "<align vstyle=center hstyle=center><font face=/font/Volvo_2022_2.font xscale=0.8 yscale=0.8><color value=FF69C2FF>%0</font></align>"
+}
+
+ui::text_template : txt.volvo_2022.lowf2 {
+	name: "zDB  Volvo FH 2022 Low Fuel 2"
+	text: "<align vstyle=center hstyle=center><font face=/font/Volvo_2022_2.font xscale=0.69 yscale=0.69>%0</font></align>"
+}
+
+ui::text_template : txt.volvo_2022.oiltemp {
+	name: "zDB  Volvo 2022 Oil Temperature"
+	text: "<align hstyle=right><font face=/font/volvo_2022.font xscale=0.7 yscale=0.7>%0</font><offset hshift=2 vstyle=bottom><font face=/font/volvo_2022.font xscale=0.5 yscale=0.5>°%1</font></align>"
+}
+
+
+ui::text_template : txt.volvo_2022.oilp {
+	name: "zDB  Volvo 2022 Oil Pressure"
+	text: "<align hstyle=right><font face=/font/volvo_2022.font xscale=0.7 yscale=0.7>%0</font><ret><offset vshift=3><align vstyle=center hstyle=right><font face=/font/Volvo_2022.font xscale=0.5 yscale=0.5>bar</font></align>"
+}
+
+ui::text_template : txt.volvo_2022.battext {
+	name: "zDB  Volvo 2022 Battery Voltage"
+	text: "<align vstyle=center hstyle=center><font face=/font/volvo_2022.font xscale=0.7 yscale=0.7><color value=FFD0F5FF>%0</font></align>"
+}
+
+ui::text_template : txt.volvo_2022.cloct {
+	name: "zDB  Volvo FH 2022 Clock T"
+	text: "<align vstyle=center hstyle=center><font face=/font/Volvo_tacho.font xscale=1 yscale=1.3>%0</font></align>"
+}
+
+ui::text_template : txt.volvo_2022.odometert {
+	name: "zDB  Volvo 2022 Odometer T"
+	text: "<align vstyle=center hstyle=right><font face=/font/Volvo_tacho.font xscale=1 yscale=1.3>%0</font></align>"
+}
+
+}

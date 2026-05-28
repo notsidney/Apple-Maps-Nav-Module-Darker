@@ -1,0 +1,468 @@
+SiiNunit
+{
+ui::window : _nameless.volvogps {
+ window_handler: null
+ clip_children: false
+ keep_aspect: none
+ user_string_data: ""
+ first_direction_focus_id: 0
+ fitting: false
+ my_children: 7
+ my_children[0]: _nameless._.clock
+ my_children[1]: _nameless._.wifi
+ my_children[2]: _nameless._.screen1
+ my_children[3]: _nameless._.screen2
+ my_children[4]: _nameless._.screen3
+ my_children[5]: _nameless._.screen4
+ my_children[6]: _nameless._.screen5
+ coords_l: 0
+ coords_r: 2048
+ coords_t: 1150
+ coords_b: 0
+ area_l: 0
+ area_r: 2048
+ area_t: 1150
+ area_b: 0
+ id: 0
+ layer: 0
+ tab: -1
+ pointer: -1
+ my_parent: null
+}
+
+ui::text_common : _nameless._.clock {
+ value: "23:59"
+ look_template: txt.volvo_2022.clockgps
+ text: ""
+ coords_l: 1827
+ coords_r: 2010
+ coords_t: 1093
+ coords_b: 1043
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 1050
+ layer: 1
+ tab: -1
+ pointer: -1
+ my_parent: _nameless.volvogps
+}
+
+ui::text : _nameless._.wifi {
+ text: "<img src=/material/ui/dashboard/volvo_fh_2022/dash_ico.mat xscale=stretch yscale=stretch left=0.201 right=0.279 bottom=0.632 top=0.556>"
+ coords_l: 1696
+ coords_r: 1817
+ coords_t: 1097
+ coords_b: 1038
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 1
+ tab: -1
+ pointer: -1
+ my_parent: _nameless.volvogps
+}
+
+ui::group : _nameless._.screen1 {
+ fitting: false
+ my_children: 9
+ my_children[0]: _nameless._.bare_map
+ my_children[1]: _nameless._.speed.limit
+ my_children[2]: _nameless._.seach
+ my_children[3]: _nameless._.menu
+ my_children[4]: _nameless._.vol
+ my_children[5]: _nameless._.comp
+ my_children[6]: _nameless._.sidemenu
+ my_children[7]: _nameless._.sidemenu2
+ my_children[8]: _nameless._.destico
+ coords_l: 0
+ coords_r: 2048
+ coords_t: 1150
+ coords_b: 0
+ area_l: 0
+ area_r: 2048
+ area_t: 1150
+ area_b: 0
+ id: 100
+ layer: 1
+ tab: -1
+ pointer: -1
+ my_parent: _nameless.volvogps
+}
+
+ui::text : _nameless._.bare_map {
+ text: "<color value=FF6D533D><img src=/material/ui/white.mat xscale=stretch yscale=stretch><ret><color value=FFFFFFFF><img src=/material/ui/dashboard/bare_map.mat left=0.100 right=0.900 bottom=0.325 top=0.72417 xscale=stretch yscale=stretch>"
+ coords_l: 0
+ coords_r: 2048
+ coords_t: 1025
+ coords_b: 0
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 1
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.screen1
+}
+
+ui::text_common : _nameless._.speed.limit {
+ value: 50
+ look_template: txt.volvo_2022.speed_lmt
+ text: ""
+ coords_l: 30
+ coords_r: 270
+ coords_t: 806
+ coords_b: 566
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 1610
+ layer: 2
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.screen1
+}
+
+ui::text : _nameless._.seach {
+ text: "<img src=/material/ui/dashboard/volvo_fh_2022/dash_ico.mat xscale=stretch yscale=stretch left=0 right=0.150 bottom=0.757 top=0.66>"
+ coords_l: 36
+ coords_r: 343
+ coords_t: 994
+ coords_b: 892
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 2
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.screen1
+}
+
+ui::text : _nameless._.menu {
+ text: "<img src=/material/ui/dashboard/volvo_fh_2022/dash_ico.mat xscale=stretch yscale=stretch left=0.101 right=0.152 bottom=0.660 top=0.558>"
+ coords_l: 36
+ coords_r: 139
+ coords_t: 146
+ coords_b: 43
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 2
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.screen1
+}
+
+ui::text : _nameless._.vol {
+ text: "<img src=/material/ui/dashboard/volvo_fh_2022/dash_ico.mat xscale=stretch yscale=stretch left=0.050 right=0.102 bottom=0.660 top=0.558>"
+ coords_l: 36
+ coords_r: 139
+ coords_t: 311
+ coords_b: 208
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 2
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.screen1
+}
+
+ui::text : _nameless._.comp {
+ text: "<img src=/material/ui/dashboard/volvo_fh_2022/dash_ico.mat xscale=stretch yscale=stretch left=0 right=0.051 bottom=0.660 top=0.558>"
+ coords_l: 36
+ coords_r: 139
+ coords_t: 476
+ coords_b: 373
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 2
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.screen1
+}
+
+ui::text : _nameless._.sidemenu {
+ text: "<img src=/material/ui/dashboard/volvo_fh_2022/dash_ico.mat xscale=stretch yscale=stretch left=0 right=0.024 bottom=0.024 top=0>"
+ coords_l: 1608
+ coords_r: 2048
+ coords_t: 0
+ coords_b: 1025
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 2
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.screen1
+}
+
+ui::text : _nameless._.sidemenu2 {
+ text: "<img src=/material/ui/dashboard/volvo_fh_2022/dash_ico.mat xscale=stretch yscale=stretch left=0.025 right=0.045 bottom=0.024 top=0>"
+ coords_l: 1608
+ coords_r: 2048
+ coords_t: 870
+ coords_b: 1025
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 3
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.screen1
+}
+
+ui::text : _nameless._.destico {
+ text: "<img src=/material/ui/dashboard/volvo_fh_2022/dash_ico.mat xscale=stretch yscale=stretch left=0.28856 right=0.32909 bottom=0.62256 top=0.55322>"
+ coords_l: 1623
+ coords_r: 1662
+ coords_t: 890
+ coords_b: 924
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 4
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.screen1
+}
+
+ui::group : _nameless._.screen2 {
+ fitting: false
+ my_children: 4
+ my_children[0]: _nameless._.no_camera
+ my_children[1]: _nameless._.camtext
+ my_children[2]: _nameless._.cammenu
+ my_children[3]: _nameless._.front_mirror
+ coords_l: 0
+ coords_r: 2048
+ coords_t: 1150
+ coords_b: 0
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 200
+ layer: 1
+ tab: -1
+ pointer: -1
+ my_parent: _nameless.volvogps
+}
+
+ui::text : _nameless._.no_camera {
+ text: "<color value=FFC3C5C5><img src=/material/ui/dashboard/volvo_fh_2022/dash_ico.mat xscale=stretch yscale=stretch left=0.15234 right=0.21484 top=0.63184 bottom=0.75684>"
+ coords_l: 849
+ coords_r: 1199
+ coords_t: 688
+ coords_b: 338
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 2
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.screen2
+}
+
+ui::text_common : _nameless._.camtext {
+ value: "Passenger Corner Camera"
+ look_template: txt.volvo_2022.camera
+ text: ""
+ coords_l: 663
+ coords_r: 1388
+ coords_t: 1049
+ coords_b: 982
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 4
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.screen2
+}
+
+ui::text : _nameless._.cammenu {
+ text: "<color value=FFC3C5C5><img src=/material/ui/dashboard/volvo_fh_2022/dash_ico.mat xscale=stretch yscale=stretch left=0.152 right=0.202 top=0.556 bottom=0.632>"
+ coords_l: 70
+ coords_r: 146
+ coords_t: 1018
+ coords_b: 960
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 4
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.screen2
+}
+
+ui::group : _nameless._.front_mirror {
+ fitting: false
+ my_children: 1
+ my_children[0]: _nameless._.mirror
+ coords_l: 0
+ coords_r: 2048
+ coords_t: 1150
+ coords_b: 0
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 1640 
+ layer: 0
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.screen2
+}
+
+ui::text : _nameless._.mirror {
+ text: "<color value=FFFFFFFF><img src=/material/environment/front_mirror_camera.mat xscale=stretch yscale=stretch right=0.05 left=0.95 bottom=0.02 top=0.98>"
+ coords_l: 0
+ coords_r: 2048
+ coords_t: 1150
+ coords_b: 0
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 3
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.front_mirror
+}
+
+ui::group : _nameless._.screen3 {
+ fitting: false
+ my_children: 1
+ my_children[0]: _nameless._.media
+ coords_l: 0
+ coords_r: 2048
+ coords_t: 1025
+ coords_b: 0
+ area_l: 0
+ area_r: 2048
+ area_t: 1025
+ area_b: 0
+ id: 300
+ layer: 1
+ tab: -1
+ pointer: -1
+ my_parent: _nameless.volvogps
+}
+
+ui::text : _nameless._.media {
+ text: "<img src=/material/ui/dashboard/volvo_fh_2022/media_screen.mat xscale=stretch yscale=stretch left=0 right=1 bottom=1 top=0>"
+ coords_l: 0
+ coords_r: 2048
+ coords_t: 1025
+ coords_b: 0
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 3
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.screen3
+}
+
+ui::group : _nameless._.screen4 {
+ fitting: false
+ my_children: 1
+ my_children[0]: _nameless._.fm
+ coords_l: 0
+ coords_r: 2048
+ coords_t: 1025
+ coords_b: 0
+ area_l: 0
+ area_r: 2048
+ area_t: 1025
+ area_b: 0
+ id: 400
+ layer: 1
+ tab: -1
+ pointer: -1
+ my_parent: _nameless.volvogps
+}
+
+ui::text : _nameless._.fm {
+ text: "<img src=/material/ui/dashboard/volvo_fh_2022/fm_screen.mat xscale=stretch yscale=stretch left=0 right=1 bottom=1 top=0>"
+ coords_l: 0
+ coords_r: 2048
+ coords_t: 1025
+ coords_b: 0
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 3
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.screen4
+}
+ui::group : _nameless._.screen5 {
+ fitting: false
+ my_children: 1
+ my_children[0]: _nameless._.turned_off
+ coords_l: 0
+ coords_r: 2048
+ coords_t: 1150
+ coords_b: 0
+ area_l: 0
+ area_r: 2048
+ area_t: 1150
+ area_b: 0
+ id: 500
+ layer: 1
+ tab: -1
+ pointer: -1
+ my_parent: _nameless.volvogps
+}
+
+ui::text : _nameless._.turned_off {
+ text: "<img src=/material/ui/white.mat color=ff000000 xscale=stretch yscale=stretch >"
+ coords_l: 0
+ coords_r: 2048
+ coords_t: 1150
+ coords_b: 0
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 3
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.screen5
+}
+}
