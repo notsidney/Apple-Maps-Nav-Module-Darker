@@ -1,5 +1,5 @@
-	road_color:	0xFF40342E	
-	road_discovered_color:	0xFF40342E
+	road_color:	0xFF6D533D	
+	road_discovered_color:	0xFF6D533D
 	job_road_color:	0xFF2b3436	
 	job_road_discovered_color:	0xFFa3a3a3	
 	world_road_color:	0xFF707070	
@@ -21,8 +21,8 @@
 	navigation_arrow_color:	0xFFffefcc	
 
 	map_area_color_name[]: "Road"
-	map_area_color[]: 0xFF40342E
-	map_area_discovered_color[]: 0xFF40342E
+	map_area_color[]: 0xFF6D533D
+	map_area_discovered_color[]: 0xFF6D533D
 
 	map_area_color_name[]: "Light"
 	map_area_color[]: 0xFF896953
