@@ -1,11 +1,5 @@
 	road_color:	0xFF6D533D	
 	road_discovered_color:	0xFF6D533D
-	job_road_color:	0xFF2b3436	
-	job_road_discovered_color:	0xFFa3a3a3	
-	world_road_color:	0xFF707070	
-	world_road_discovered_color:	0xFF61bde9	
-	fleet_manager_road_color:	0xff424242	
-	fleet_manager_road_discovered_color:	0xff424242	
 
 	prefab_color:	0xFF896953	  
 	prefab_obstacle_color:	0xFF543F2F	
