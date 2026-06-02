@@ -1,8 +1,8 @@
 SiiNunit
 {
 mod_package : .package_name {
-    package_version: "1.3"
-    author: "Lism"
+    package_version: "1.0"
+    author: "seenee"
     category[]: "ui"
     icon: "mod_icon.jpg"
     description_file: "mod_description.txt"
