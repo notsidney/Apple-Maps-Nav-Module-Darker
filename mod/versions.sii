@@ -1,7 +1,12 @@
 SiiNunit
 {
-package_version_info : .universal
-{
-    package_name: "universal"
+package_version_info : .latest {
+    package_name: "latest"
+}
+
+package_version_info : .pre161.content {
+	package_name: "pre_161"
+	compatible_versions[]: "1.60.*"
+	compatible_versions[]: "1.59.*"
 }
 }

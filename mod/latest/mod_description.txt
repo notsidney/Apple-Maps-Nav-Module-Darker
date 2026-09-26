@@ -1,0 +1,17 @@
+﻿[orange]Apple Maps Nav Module: Darker Mode (Black BG)[normal]
+
+This is a [green]module[normal] for the Apple Maps Navigation mod.
+The [orange]base mod is required![normal]
+
+What this module does:
+- Changes GPS and map colors to a darker version of the Apple Maps Dark Mode style
+
+[orange]Load Order:[normal]
+1. [green]Apple Maps Nav Module: Darker Mode (Black BG)[normal] (this mod)
+2. Compatible background map (if used)
+3. Apple Maps Navigation (Base)
+4. Any map mod (if used)
+
+[orange]Credits:[normal]
+seenee
+Lism
